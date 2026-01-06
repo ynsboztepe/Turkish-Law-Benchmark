@@ -41,17 +41,25 @@ Yapılan deneyler sonucunda:
 * **Gemma-2**, mantıksal çıkarımlarda güçlü olsa da formatlama (prompt uyumu) konusunda özel optimizasyon gerektirmiştir.
 * **RAG Mimarisi**, modellerin halüsinasyon oranını ciddi ölçüde düşürerek kanıta dayalı cevaplar üretmesini sağlamıştır.
 
-## 📂 Kurulum ve Kullanım (Installation)
+## 📂 Kurulum ve Kullanım (Installation & Usage)
 
-```bash
-# Projeyi klonlayın
-git clone [https://github.com/ynsboztepe/Turkish-Law-Benchmark.git](https://github.com/ynsboztepe/Turkish-Law-Benchmark.git)
+Bu projeyi çalıştırmak için aşağıdaki yöntemlerden birini seçebilirsiniz.
 
-# Proje dizinine girin
-cd Turkish-Law-Benchmark
+### Seçenek 1: Google Colab (Önerilen)
+Hiçbir kurulum yapmadan, tarayıcınız üzerinden ücretsiz GPU desteğiyle projeyi çalıştırmak için aşağıdaki butona tıklayın:
 
-# Gereksinimleri yükleyin
-pip install -r requirements.txt
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ynsboztepe/Turkish-Law-Benchmark/blob/main/emreNLP.ipynb)
 
-# Uygulamayı çalıştırın (Örnek)
-python main.py
+### Seçenek 2: Yerel Bilgisayarda Çalıştırma (Local)
+
+Eğer projeyi kendi bilgisayarınızda çalıştırmak isterseniz:
+
+1. **Projeyi klonlayın:**
+   ```bash
+   git clone [https://github.com/ynsboztepe/Turkish-Law-Benchmark.git](https://github.com/ynsboztepe/Turkish-Law-Benchmark.git)
+
+   cd Turkish-Law-Benchmark
+   
+   pip install -r requirements.txt
+
+   jupyter notebook emreNLP.ipynb
